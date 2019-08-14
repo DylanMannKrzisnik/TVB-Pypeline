@@ -81,9 +81,9 @@ for opt, arg in opts:
         diffusion_rawdata = arg
     elif opt in ('-f', '--functional-rawdata'):
         functional_rawdata = arg
-    elif opt is '--bval':
+    elif opt == '--bval':
         bval_file = arg
-    elif opt is '--bev':
+    elif opt == '--bvec':
         bvec_file = arg
 
 # Check if all the obligatory inputs are set
